@@ -10,7 +10,3 @@ Install:
 On an allowed website, highlight encoded text or right-click a hyperlink and choose Decode & Open Link. Only complete HTTPS destinations open, after up to five Base64 passes.
 
 Leaving the domain list empty disables the context menu on every website. Domains include subdomains. No content scripts, remote decoding, or persistent background process.
-
-Version 1.3: Cute fish icon from the original mockup; default allowlist fora.snahp.eu. Existing custom settings are preserved.
-
-Version 1.4: Serialize context-menu registration to avoid duplicate-ID errors during startup/install.
