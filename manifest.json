@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Snahpper",
+  "version": "1.4.0",
+  "description": "Open nested Base64-encoded HTTPS links from the right-click menu on sites you choose.",
+  "permissions": [
+    "contextMenus",
+    "notifications",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
